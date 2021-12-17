@@ -6,3 +6,7 @@
 4. Change project properties 
 ![image](https://user-images.githubusercontent.com/9728497/146467183-5d154629-89ef-41be-b3b4-651b87216fe2.png)
 5. Setup **MongoDB using Docker**
+6. Docker pull mongo (pull mongo image)
+7. docker run -d -p 27017:27017
+8. 
+

@@ -35,7 +35,9 @@
       - creating controller class
       -  Controller/CatalogController.cs
       -  Note: inside the **presentaion layer**, will using busienss logic layer which is **repository layer**
-      
+ 25.  Create docker continer of Catalog API <br />
+ ![image](https://user-images.githubusercontent.com/9728497/146694239-793dbc41-c5f9-48b2-aa8d-ccac2a3e3476.png)
+
       
      
  

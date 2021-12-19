@@ -10,7 +10,7 @@
 7. docker run -d -p 27017:27017 --name shopping-mongo mongo
 8. docker logs -f shopping-mongo
 9. docker exec -it shopping-mongo /bin/bash (Inside the docker container)
-  <br /> mongo
-  <br /> show dbs
+  - mongo
+  - show dbs
 11. 
 

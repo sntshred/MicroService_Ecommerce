@@ -12,5 +12,13 @@
 9. docker exec -it shopping-mongo /bin/bash (Inside the docker container)
   - mongo
   - show dbs
-11. 
+10. use CatalogDb  (creates CatalogDb if not present and switches)
+11.  db.createCollection('Products')
+12.  db.Products.insertMany( [ { "Name":"Asus Laptop", "Category":"Compouters", "Summary":"Summary", "ImageFile":"ImageFile", "Price":54.93 }, { "Name":"Dell Laptop", "Category":"Compouters", "Summary":"Summary", "ImageFile":"ImageFile", "Price":54.93 }, { "Name":"Mac Laptop", "Category":"Compouters", "Summary":"Summary", "ImageFile":"ImageFile", "Price":54.93 }, { "Name":"Microsoft Laptop", "Category":"Compouters", "Summary":"Summary", "ImageFile":"ImageFile", "Price":54.93 } ])
+13.  db.Products.find({}).pretty()
+14.   db.Products.remove({})
+15.   show collections
+16.   ![image](https://user-images.githubusercontent.com/9728497/146679606-41b13385-afda-48a6-8105-ff5d9b8401ea.png)
+17.   
+
 

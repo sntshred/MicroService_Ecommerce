@@ -19,7 +19,8 @@
 14.   db.Products.remove({})
 15.   show collections
 16. <br />   ![image](https://user-images.githubusercontent.com/9728497/146679651-367d31b2-fd09-4001-8b33-e7bf09909233.png)
-17.   
+17. <br /> ![image](https://user-images.githubusercontent.com/9728497/146679896-c15b70e4-feb3-4ac1-a258-2a9718fdab5a.png)
+18.   
   
 
 

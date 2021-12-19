@@ -22,7 +22,24 @@
 17. <br /> ![image](https://user-images.githubusercontent.com/9728497/146679896-c15b70e4-feb3-4ac1-a258-2a9718fdab5a.png)
 18.  <br /> ![image](https://user-images.githubusercontent.com/9728497/146679987-fa711000-9844-472e-9379-46087368e24a.png)
 19. < br /> ![image](https://user-images.githubusercontent.com/9728497/146680054-8b095dba-7f2f-4fa1-9c9d-b34cfbf842d3.png)
-20. 
+20. Create Entiites (Folder) for  **Products**
+21.  Create a Data folder (DAL)
+  -  Create ICatalogContext
+  -  Create CatalogContext
+  -  Create CatalogContextSeed
+ 22. **note:** Create Repostiory pattern to encapsulate **datacontext** object, by this way there's a abstreaction with the repository layer
+ 23.   Create *Repositories folder"
+      - create IProductRepository
+      - ProductRepository
+ 24. Create Presnation Layer 
+      - creating controller class
+      -  Controller/CatalogController.cs
+      -  Note: inside the **presentaion layer**, will using busienss logic layer which is **repository layer**
+      
+      
+     
+ 
+ 
 
  
   

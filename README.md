@@ -37,6 +37,16 @@
       -  Note: inside the **presentaion layer**, will using busienss logic layer which is **repository layer**
  25.  Create docker continer of Catalog API <br />
  ![image](https://user-images.githubusercontent.com/9728497/146694239-793dbc41-c5f9-48b2-aa8d-ccac2a3e3476.png)
+  - Select Linux as operating system
+ 26. Adding MongoDb image into Docker-Compose File for Multi-Container Docker Environ
+ 27. docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+ 28. - note: when the profile in vs 2019  set to "Docker compose", build and clean on vs 2019 will do the docker operations, such has "clean solution", will stop the container and removes the container, so to avoid that, update the below configuration on vs 2019.
+ <br />
+ ![image](https://user-images.githubusercontent.com/9728497/146697451-db23924b-28cf-42aa-9fa2-2eb157d9d4dc.png)
+29. Mongo GUI Options for MongoDb Docker Image
+- docker run -d -p 3000:3000 mongoclient/mongoclient
+31. 
+ 
 
       
      

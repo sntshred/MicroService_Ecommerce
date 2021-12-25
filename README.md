@@ -58,6 +58,14 @@
 6. docker run -d -p 6379:6379 --name aspnetrun-redis redis
 7. troubleshooting in docker: docker logs -f aspnetrun-redis
 8. intercative terminal: docker exec -it aspnetrun-redis /bin/bash
+10. In the interactive window, to check the Redis working, we need to go to** redis cli**
+11. type **redis-cli** command
+12. ping (response ==> pong)
+13. ![image](https://user-images.githubusercontent.com/9728497/147376836-c9c9e0bf-ce6a-47b7-bb51-2fb87f813dae.png)
+14. will store the basket values in json object in Redis cache, for each user, has a key
+15. set <usernmae> <Basket JSON object>
+16. 
+
 
 
 

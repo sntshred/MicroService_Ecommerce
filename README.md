@@ -2,8 +2,9 @@
 
 1. Create a blank project in Src folder
 2. Create a new solution folder **Services**  - Will create Microservices under this folder
-3. Create a new **Catlog solution folder** underneath 
-4. Change project properties 
+3. Create a new **Catlog solution folder** underneath
+4. Create a new project with the below filepath to **create physical folder "src/services/catalog/Catalog.API"**
+5. Change project properties 
 ![image](https://user-images.githubusercontent.com/9728497/146467183-5d154629-89ef-41be-b3b4-651b87216fe2.png)
 5. Setup **MongoDB using Docker**
 6. Docker pull mongo (pull mongo image)
@@ -44,7 +45,19 @@
   ![image](https://user-images.githubusercontent.com/9728497/146697451-db23924b-28cf-42aa-9fa2-2eb157d9d4dc.png)
 29. Mongo GUI Options for MongoDb Docker Image
 - docker run -d -p 3000:3000 mongoclient/mongoclient
-31. 
+---
+### Basket.API Microservice
+
+1. Right click on services foler, Create "Basket" solution folder
+2. Right click on Basket folder to add new project 
+ ![image](https://user-images.githubusercontent.com/9728497/147376639-4228d1bb-46f0-480d-a674-412be4445db9.png)
+3. Select "Web.api" template, create a physical folder by "**adding the folder on the**" as below
+![image](https://user-images.githubusercontent.com/9728497/147376662-b88a4529-03c0-4953-81a9-b2e741499609.png)
+4.
+
+
+
+
  
 
       

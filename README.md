@@ -54,6 +54,10 @@
 3. Select "Web.api" template, create a physical folder by "**adding the folder on the**" as below
 ![image](https://user-images.githubusercontent.com/9728497/147376662-b88a4529-03c0-4953-81a9-b2e741499609.png)
 4. **Note:** Redis exteremely fast because it works synchronously
+5. docker pull redis
+6. docker run -d -p 6379:6379 --name aspnetrun-redis redis
+7. troubleshooting in docker: docker logs -f aspnetrun-redis
+8. intercative terminal: docker exec -it aspnetrun-redis /bin/bash
 
 
 

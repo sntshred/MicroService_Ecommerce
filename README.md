@@ -96,6 +96,12 @@
   uername: admin
   password: password
   ![image](https://user-images.githubusercontent.com/9728497/147434887-7a8635b8-0357-4552-9090-67d66f71bc49.png)
+  
+  ----
+  ## Discount API
+  1. Right click on services foler, Create "Discount" solution folder
+  2. Right click on Discount folder to add new project 
+  
 
   
   

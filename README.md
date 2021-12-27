@@ -71,6 +71,24 @@
 17. "set <usernmae> <Basket JSON object>"
 18. Create Repository folder
     - IBasketRepository.cs
+19. sample data to post on Redis
+  "userName": "swn",
+  "items": [
+    {
+      "quantity": 2,
+      "color": "Red",
+      "price": 500,
+      "productId": "602d2149e773f2a3990b47f5",
+      "productName": "IphoneX"
+    },
+  
+  20. docker exec -it aspnetrun-redis /bin/bash
+  30. redis-cli to check the username and the values on docker container
+  31.
+  
+  
+  
+ 
   
   
 

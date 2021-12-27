@@ -84,7 +84,13 @@
   
   20. docker exec -it aspnetrun-redis /bin/bash
   30. redis-cli to check the username and the values on docker container
-  31.
+  31.docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
+  
+  ----
+  
+  ## Container Mangement with  **Portainer**
+  
+  
   
   
   

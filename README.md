@@ -105,7 +105,8 @@
  3. 1https://hub.docker.com/_/postgres
  4. https://hub.docker.com/r/dpage/pgadmin4
  5. https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
- 6. 
+ ![image](https://user-images.githubusercontent.com/9728497/147514029-a7a34f55-6688-4fca-8d24-2eaaeb263656.png)
+
   
   
   

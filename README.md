@@ -28,7 +28,7 @@
   -  Create ICatalogContext
   -  Create CatalogContext
   -  Create CatalogContextSeed
- 22. **note:** Create Repostiory pattern to encapsulate **datacontext** object, by this way there's a abstreaction with the repository layer
+ 22. **note:** Create Repostiory pattern to encapsulate **datacontext** object, by this way there's a abstraction with the repository layer
  23.   Create *Repositories folder"
       - create IProductRepository
       - ProductRepository
@@ -64,7 +64,10 @@
 13. ![image](https://user-images.githubusercontent.com/9728497/147376836-c9c9e0bf-ce6a-47b7-bb51-2fb87f813dae.png)
 14. will store the basket values in json object in Redis cache, for each user, has a key
 15. set <usernmae> <Basket JSON object>
-16. 
+16. Create Repository folder
+    - IBasketRepository.cs
+  
+  
 
 
 

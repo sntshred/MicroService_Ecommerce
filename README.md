@@ -63,8 +63,13 @@
 12. ping (response ==> pong)
 13. ![image](https://user-images.githubusercontent.com/9728497/147376836-c9c9e0bf-ce6a-47b7-bb51-2fb87f813dae.png)
 14. will store the basket values in json object in Redis cache, for each user, has a key
-15. set <usernmae> <Basket JSON object>
-16. Create Repository folder
+15. Download "Microsoft.Extensions.Caching.StackExchangeRedis"
+16. In **Stratup.cs** file  services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
+            });
+17. "set <usernmae> <Basket JSON object>"
+18. Create Repository folder
     - IBasketRepository.cs
   
   

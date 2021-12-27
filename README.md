@@ -99,8 +99,19 @@
   
   ----
   ## Discount API
-  1. Right click on services foler, Create "Discount" solution folder
-  2. Right click on Discount folder to add new project 
+  
+ 1. Right click on services foler, Create "Discount" solution folder
+ 2. Right click on Discount folder to add new project 
+ 3. 1https://hub.docker.com/_/postgres
+ 4. https://hub.docker.com/r/dpage/pgadmin4
+ 5. https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
+ 6. 
+  
+  
+  
+  
+  
+  
   
 
   

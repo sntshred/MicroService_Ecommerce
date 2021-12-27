@@ -89,6 +89,33 @@
   ----
   
   ## Container Mangement with  **Portainer**
+  https://docs.portainer.io/v/ce-2.11/start/install/server/docker/linux#deployment
+  https://hub.docker.com/r/portainer/portainer-ce
+  
+  After configuring the portainer, goto localhost:9000, and set the password
+  uername: admin
+  password: password
+  ![image](https://user-images.githubusercontent.com/9728497/147434887-7a8635b8-0357-4552-9090-67d66f71bc49.png)
+  
+  ----
+  ## Discount API
+  
+ 1. Right click on services foler, Create "Discount" solution folder
+ 2. Right click on Discount folder to add new project 
+ 3. 1https://hub.docker.com/_/postgres
+ 4. https://hub.docker.com/r/dpage/pgadmin4
+ 5. https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
+ ![image](https://user-images.githubusercontent.com/9728497/147514029-a7a34f55-6688-4fca-8d24-2eaaeb263656.png)
+
+  
+  
+  
+  
+  
+  
+  
+
+  
   
   
   

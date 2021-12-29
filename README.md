@@ -122,7 +122,9 @@
   
   1. Protos/ greet.proto-- comes for the GRPC services
   2. We need to **create and expose Discount proto** to Basket API
-  3.
+  3.Services/GreeterService -- which perform GRPC connection 
+  4. Startup.cs <br /> ![image](https://user-images.githubusercontent.com/9728497/147705426-190a91d2-0685-4f5e-af37-5841612c39f8.png)
+
   
   
   

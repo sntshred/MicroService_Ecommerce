@@ -110,7 +110,7 @@
   
   ----
   
-  ## Discoun API With GRPC
+  ## Discount API With GRPC
   
   ![image](https://user-images.githubusercontent.com/9728497/147703947-a59efc5f-3981-4146-9a7c-9625bc976a1a.png)
 

@@ -115,7 +115,17 @@
   ![image](https://user-images.githubusercontent.com/9728497/147703947-a59efc5f-3981-4146-9a7c-9625bc976a1a.png)
 
   ![image](https://user-images.githubusercontent.com/9728497/147703920-88871b4d-e86f-42af-9c0b-ea431aac06cf.png)
+  
+  We need to select GRPC template
+  ![image](https://user-images.githubusercontent.com/9728497/147705024-8f76b575-a5c2-4c2d-96a5-b0692ed9a297.png)
 
+  
+  1. Protos/ greet.proto-- comes for the GRPC services
+  2. We need to **create and expose Discount proto** to Basket API
+  3.
+  
+  
+  
   
   
   

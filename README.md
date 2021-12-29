@@ -131,6 +131,7 @@
   4. **Services/GreeterService:** which perform GRPC connection  <br />
   5. Startup.cs <br />
   ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png)
+  6. **Note**: Normally we expose API from the **controller classes** in **API project**, but, for this time for the **gRPC**, we need to create **proto** service classes.
 
 
   

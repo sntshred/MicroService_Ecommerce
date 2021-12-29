@@ -128,8 +128,7 @@
   
   After changing the confiuration, we can verify in the project file <br />
    ![image](https://user-images.githubusercontent.com/9728497/147706522-7764cb80-0093-46e2-aeb6-4d51e6f0e7cd.png) <br />
-  4.**Services/GreeterService:** which perform GRPC connection 
- 
+  4. **Services/GreeterService:** which perform GRPC connection 
   5. Startup.cs <br />
   ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png)
 

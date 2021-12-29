@@ -123,15 +123,14 @@
   1. Protos/ greet.proto-- comes for the GRPC services
   2. We need to **create and expose Discount proto** to Basket API
   3. - **Build Action:** Protobuf compiler will convert proto to charp class for client application
-     - **gRPC: Server Only:** we exposes greet.proto file to external systems
-  <br />
-    ![image](https://user-images.githubusercontent.com/9728497/147706258-92755274-a042-404f-bded-99e5bb8f2330.png)
-  <br />
-  After changing the confiuration, we can verify in the project file
-  <br />
-  ![image](https://user-images.githubusercontent.com/9728497/147706522-7764cb80-0093-46e2-aeb6-4d51e6f0e7cd.png)
+     - **gRPC: Server Only:** we exposes greet.proto file to external systems <br />
+      ![image](https://user-images.githubusercontent.com/9728497/147706258-92755274-a042-404f-bded-99e5bb8f2330.png)
+  
+  After changing the confiuration, we can verify in the project file <br />
+   ![image](https://user-images.githubusercontent.com/9728497/147706522-7764cb80-0093-46e2-aeb6-4d51e6f0e7cd.png)
   4.Services/GreeterService -- which perform GRPC connection 
-  5. Startup.cs <br /> ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png)
+  5. Startup.cs <br />
+  ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png)
 
 
   

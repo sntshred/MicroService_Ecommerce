@@ -120,22 +120,25 @@
   ![image](https://user-images.githubusercontent.com/9728497/147705024-8f76b575-a5c2-4c2d-96a5-b0692ed9a297.png)
 
   
-1. Protos/ greet.proto-- comes for the GRPC services
-2. We need to **create and expose Discount proto** to Basket API
-3. - **Build Action:** Protobuf compiler will convert proto to charp class for client application
+  1. Protos/ greet.proto-- comes for the GRPC services
+  2. We need to **create and expose Discount proto** to Basket API
+  3. - **Build Action:** Protobuf compiler will convert proto to charp class for client application
      - **gRPC: Server Only:** we exposes greet.proto file to external systems <br />
       ![image](https://user-images.githubusercontent.com/9728497/147706258-92755274-a042-404f-bded-99e5bb8f2330.png)
   
   After changing the confiuration, we can verify in the project file <br />
    ![image](https://user-images.githubusercontent.com/9728497/147706522-7764cb80-0093-46e2-aeb6-4d51e6f0e7cd.png) <br />
-4. **Services/GreeterService:** which perform GRPC connection  <br />
-5. Startup.cs <br />
+  4. **Services/GreeterService:** which perform GRPC connection  <br />
+  5. Startup.cs <br />
   ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png) <br />
-6. **Note**: Normally we expose API from the **controller classes** in **API project**, but, for this time for the **gRPC**, we need to create **proto** service classes.
+  6. **Note**: Normally we expose API from the **controller classes** in **API project**, but, for this time for the **gRPC**, we need to create **proto** service classes.
   EG: DiscountController == DiscountServices (in gRPC)
 
   7. create "DiscountProto" <br />
   ![image](https://user-images.githubusercontent.com/9728497/147709167-ad9beb93-c98a-477e-8a41-3ca9f8b141e1.png)
+  8. Right click on DiscountProto, and add configure "Build Action" <br />
+  ![image](https://user-images.githubusercontent.com/9728497/147710407-75c39be9-e1ca-4769-8cd5-e1fc5bc5b33f.png)
+
 
 
 

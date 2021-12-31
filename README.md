@@ -152,7 +152,11 @@
   2. Calculate latest price of product into shopping cart
   3. "Basket API" will be client of **Discount.gRpc **
    BasketAPi (clinet gRpc) == Discount.gRpc (Server gRpc)
-  4. 
+  4. User connected service of visual studio to setup communicatiion between thsi projects
+  ![image](https://user-images.githubusercontent.com/9728497/147840005-e23f8498-78f6-4e38-ba7d-55fd0ae544d1.png)
+  5. ![image](https://user-images.githubusercontent.com/9728497/147840181-3153f5d3-7ccb-40f4-986c-8ac5b8046247.png)
+  6.
+
   
   
   

@@ -138,7 +138,11 @@
   ![image](https://user-images.githubusercontent.com/9728497/147709167-ad9beb93-c98a-477e-8a41-3ca9f8b141e1.png)
   8. Right click on DiscountProto, and add configure "Build Action" and **gRPC stub class** to Server only<br />
   ![image](https://user-images.githubusercontent.com/9728497/147710446-c2b60120-c30b-4a82-92e3-1c1d9b11b96e.png) <br />
-  9. 
+  9. Create Service/DiscountService.cs file and convert to proto file by inhertiance 
+   public class DiscountService: DiscountProtoService.DiscountProtoServiceBase
+  10. Expose Grpc service as below in startup class
+  ![image](https://user-images.githubusercontent.com/9728497/147839037-3bfb3a12-176f-450b-8df9-b73f69ab16aa.png)
+
   
 
 

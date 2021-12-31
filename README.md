@@ -1,4 +1,5 @@
 # MicroService_Ecommerce
+![image](https://user-images.githubusercontent.com/9728497/147839730-b1cd8693-fa0b-4a24-bae0-85c799ce2309.png)
 
 1. Create a blank project in Src folder
 2. Create a new solution folder **Services**  - Will create Microservices under this folder
@@ -107,6 +108,56 @@
  5. https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
  ![image](https://user-images.githubusercontent.com/9728497/147514029-a7a34f55-6688-4fca-8d24-2eaaeb263656.png)
 
+  
+  ----
+  
+  ## Discount API With GRPC
+  
+  ![image](https://user-images.githubusercontent.com/9728497/147703947-a59efc5f-3981-4146-9a7c-9625bc976a1a.png)
+
+  ![image](https://user-images.githubusercontent.com/9728497/147703920-88871b4d-e86f-42af-9c0b-ea431aac06cf.png)
+  
+  We need to select GRPC template
+  ![image](https://user-images.githubusercontent.com/9728497/147705024-8f76b575-a5c2-4c2d-96a5-b0692ed9a297.png)
+
+  
+  1. Protos/ greet.proto-- comes for the GRPC services
+  2. We need to **create and expose Discount proto** to Basket API
+  3. - **Build Action:** Protobuf compiler will convert proto to charp class for client application
+     - **gRPC: Server Only:** we exposes greet.proto file to external systems <br />
+      ![image](https://user-images.githubusercontent.com/9728497/147706258-92755274-a042-404f-bded-99e5bb8f2330.png)
+  
+  After changing the confiuration, we can verify in the project file <br />
+   ![image](https://user-images.githubusercontent.com/9728497/147706522-7764cb80-0093-46e2-aeb6-4d51e6f0e7cd.png) <br />
+  4. **Services/GreeterService:** which perform GRPC connection  <br />
+  5. Startup.cs <br />
+  ![image](https://user-images.githubusercontent.com/9728497/147705531-21f867ba-7180-4108-979e-7b3192906d58.png) <br />
+  6. **Note**: Normally we expose API from the **controller classes** in **API project**, but, for this time for the **gRPC**, we need to create **proto** service classes.
+  EG: DiscountController == DiscountServices (in gRPC)
+
+  7. create "DiscountProto" <br />
+  ![image](https://user-images.githubusercontent.com/9728497/147709167-ad9beb93-c98a-477e-8a41-3ca9f8b141e1.png)
+  8. Right click on DiscountProto, and add configure "Build Action" and **gRPC stub class** to Server only<br />
+  ![image](https://user-images.githubusercontent.com/9728497/147710446-c2b60120-c30b-4a82-92e3-1c1d9b11b96e.png) <br />
+  9. Create Service/DiscountService.cs file and convert to proto file by inhertiance 
+   public class DiscountService: DiscountProtoService.DiscountProtoServiceBase
+  10. Expose Grpc service as below in startup class
+  ![image](https://user-images.githubusercontent.com/9728497/147839037-3bfb3a12-176f-450b-8df9-b73f69ab16aa.png)
+
+  ---
+  **Consuming Discoung Grpc service from Basket microservice** -- When Adding Cart item into Shopping cart to Calculate Final price
+  ![image](https://user-images.githubusercontent.com/9728497/147839729-4f1bbb18-1ab4-42c8-b065-b8d2dbfcbd4b.png)
+
+  
+  
+  
+
+
+
+
+
+
+  
   
   
   

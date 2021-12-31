@@ -1,4 +1,5 @@
 # MicroService_Ecommerce
+![image](https://user-images.githubusercontent.com/9728497/147839730-b1cd8693-fa0b-4a24-bae0-85c799ce2309.png)
 
 1. Create a blank project in Src folder
 2. Create a new solution folder **Services**  - Will create Microservices under this folder
@@ -144,9 +145,11 @@
   ![image](https://user-images.githubusercontent.com/9728497/147839037-3bfb3a12-176f-450b-8df9-b73f69ab16aa.png)
 
   ---
-  Consuming Discoung Grpc service from Basket microservice -- <small> 
-  When Adding Cart item into Shopping cart to Calculate Final price
-  </small>
+  **Consuming Discoung Grpc service from Basket microservice** -- When Adding Cart item into Shopping cart to Calculate Final price
+  ![image](https://user-images.githubusercontent.com/9728497/147839729-4f1bbb18-1ab4-42c8-b065-b8d2dbfcbd4b.png)
+
+  
+  
   
 
 

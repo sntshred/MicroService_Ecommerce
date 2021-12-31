@@ -143,6 +143,10 @@
   10. Expose Grpc service as below in startup class
   ![image](https://user-images.githubusercontent.com/9728497/147839037-3bfb3a12-176f-450b-8df9-b73f69ab16aa.png)
 
+  ---
+  Consuming Discoung Grpc service from Basket microservice -- <small> 
+  When Adding Cart item into Shopping cart to Calculate Final price
+  </small>
   
 
 

@@ -147,7 +147,16 @@
   ---
   **Consuming Discoung Grpc service from Basket microservice** -- When Adding Cart item into Shopping cart to Calculate Final price
   ![image](https://user-images.githubusercontent.com/9728497/147839729-4f1bbb18-1ab4-42c8-b065-b8d2dbfcbd4b.png)
-
+  
+  1. Communicate with Discount.Grpc
+  2. Calculate latest price of product into shopping cart
+  3. "Basket API" will be client of **Discount.gRpc **
+   BasketAPi (clinet gRpc) == Discount.gRpc (Server gRpc)
+  4. 
+  
+  
+  
+  
   
   
   

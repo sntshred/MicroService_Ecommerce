@@ -158,15 +158,10 @@
   6. Select type of the class to be generated: **Client**
   - Because we are going to consume this "gRpc" method
 
+  ---
+  ## Ordering Microservices
   
-  
-  
-  
-  
-  
-  
-
-
+  ![image](https://user-images.githubusercontent.com/9728497/147957856-576ecdc4-ab4d-45a5-ba28-d61593fb7694.png)
 
 
 

@@ -162,6 +162,9 @@
   ## Ordering Microservices
   
   ![image](https://user-images.githubusercontent.com/9728497/147957856-576ecdc4-ab4d-45a5-ba28-d61593fb7694.png)
+  
+  ![image](https://user-images.githubusercontent.com/9728497/147959172-8254d64c-d82c-475f-9ffb-1d62203ca36e.png)
+
 
 
 

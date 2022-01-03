@@ -165,6 +165,9 @@
   
   ![image](https://user-images.githubusercontent.com/9728497/147959172-8254d64c-d82c-475f-9ffb-1d62203ca36e.png)
 
+  ![image](https://user-images.githubusercontent.com/9728497/147959701-66c67970-a9ef-440d-a707-1d379a80b212.png)
+   
+   https://medium.com/software-alchemy/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs-23243c3f31b3
 
 
 

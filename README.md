@@ -197,7 +197,11 @@
     }
   
   ```
+5. Behaviour/ValidationBehaviour: using "" we will intercept before and after the handle class, to handle the pipeline behaviours.
+  
+    ![image](https://user-images.githubusercontent.com/9728497/148665991-d716e1d0-472b-4115-aa8b-da4e81adba10.png)
 
+  The IValidator look for all --> AbstractValidators, and AbstractValidators implement IValidator interface under the hood, so any classes implement Abstractclass "Aka IValidtor", will get the class info here
   
   
   

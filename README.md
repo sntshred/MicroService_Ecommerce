@@ -187,7 +187,7 @@
   
   3. Exception handler to specify every layer has a different exception using "Exceptions/ExceptionHandler", we customize exception by different layers using below
   4. Any validations fail occurs in update/delete,checkout validattor you can capture by this method.
-   
+  ``` 
   public ValidationException(IEnumerable<ValidationFailure> failures)
         : this()
     {
@@ -195,6 +195,8 @@
             .GroupBy(e => e.PropertyName, e => e.ErrorMessage)
             .ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray());
     }
+  
+  ```
 
   
   

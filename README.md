@@ -208,8 +208,9 @@
 
   ![image](https://user-images.githubusercontent.com/9728497/148666472-030ae620-c5b5-4479-8ebd-593c9d85c276.png)
 
-
-  
+7. Register you depedenncy on ordering.application layer using, "ApplicationServiceRegistration"
+  ![image](https://user-images.githubusercontent.com/9728497/148668716-af9daeee-b31c-4fd5-b131-2c3d2321beaf.png)
+8. 
   
   
   

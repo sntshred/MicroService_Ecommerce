@@ -173,6 +173,13 @@
 
   ![image](https://user-images.githubusercontent.com/9728497/148326655-9e00b45c-2d2b-40b1-823a-529354291470.png)
 
+  1. If there's no response type, the return type expected by Mediator is "Unit"
+  public Task<**Unit**> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+  
+  2. 
   
   
   
@@ -193,9 +200,7 @@
   
   
   
-  
-  
-  Reference:
+
 
 
 

@@ -158,14 +158,80 @@
   6. Select type of the class to be generated: **Client**
   - Because we are going to consume this "gRpc" method
 
+  ---
+  ## Ordering Microservices
   
+  ![image](https://user-images.githubusercontent.com/9728497/147957856-576ecdc4-ab4d-45a5-ba28-d61593fb7694.png)
   
-  
-  
-  
-  
-  
+  ![image](https://user-images.githubusercontent.com/9728497/147959172-8254d64c-d82c-475f-9ffb-1d62203ca36e.png)
 
+  ![image](https://user-images.githubusercontent.com/9728497/147959701-66c67970-a9ef-440d-a707-1d379a80b212.png)
+   
+   https://medium.com/software-alchemy/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs-23243c3f31b3
+  
+  ![image](https://user-images.githubusercontent.com/9728497/147961873-245cd7ea-4684-45b6-8230-3a2de7413129.png)
+
+  ![image](https://user-images.githubusercontent.com/9728497/148326655-9e00b45c-2d2b-40b1-823a-529354291470.png)
+
+  1. If there's no response type, the return type expected by Mediator is "Unit"
+  public Task<**Unit**> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+  
+  2.     // UpdateOrderCommand --> which means we are validating updateordercommand, we saying specifying the type
+    public class UpdateOrderCommandValidator: AbstractValidator<**UpdateOrderCommand**>
+    {
+
+    }
+  
+  3. Exception handler to specify every layer has a different exception using "Exceptions/ExceptionHandler", we customize exception by different layers using below
+  4. Any validations fail occurs in update/delete,checkout validattor you can capture by this method.
+  ``` 
+  public ValidationException(IEnumerable<ValidationFailure> failures)
+        : this()
+    {
+        Errors = failures
+            .GroupBy(e => e.PropertyName, e => e.ErrorMessage)
+            .ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray());
+    }
+  
+  ```
+ 5. Behaviour/ValidationBehaviour: using "" we will intercept before and after the handle class, to handle the pipeline behaviours.
+  
+    ![image](https://user-images.githubusercontent.com/9728497/148665991-d716e1d0-472b-4115-aa8b-da4e81adba10.png)
+
+  The IValidator look for all --> AbstractValidators, and AbstractValidators implement IValidator interface under the hood, so any classes implement Abstractclass "Aka IValidtor", will get the class info here
+ 
+ 6. This validationBehviour is a good practise, where you dont need to peroform validation on every request for "CheckoutOrderCommandHandler" or "OrderingCommandHandler", it will act has a intercept and do the validations, and inthe handle methods of Checkout/Ordering, you could just foucs on actual operations.
+  ![image](https://user-images.githubusercontent.com/9728497/148666460-5223d7ea-f7cc-4616-8c77-1baddc0b2fe4.png)
+
+  ![image](https://user-images.githubusercontent.com/9728497/148666472-030ae620-c5b5-4479-8ebd-593c9d85c276.png)
+
+7. Register you depedenncy on ordering.application layer using, "ApplicationServiceRegistration"
+  ![image](https://user-images.githubusercontent.com/9728497/148668716-af9daeee-b31c-4fd5-b131-2c3d2321beaf.png)
+8. we worked on Domain, application **core layer**, need to work on presentation layer (Periphery layer)
+  ![image](https://user-images.githubusercontent.com/9728497/148668757-7aed2950-3931-4391-bb7e-0610e7c5a906.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 

@@ -179,7 +179,11 @@
             throw new NotImplementedException();
         }
   
-  2. 
+  2.     // UpdateOrderCommand --> which means we are validating updateordercommand, we saying specifying the type
+    public class UpdateOrderCommandValidator: AbstractValidator<**UpdateOrderCommand**>
+    {
+
+    }
   
   
   

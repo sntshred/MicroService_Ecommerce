@@ -210,7 +210,9 @@
 
 7. Register you depedenncy on ordering.application layer using, "ApplicationServiceRegistration"
   ![image](https://user-images.githubusercontent.com/9728497/148668716-af9daeee-b31c-4fd5-b131-2c3d2321beaf.png)
-8. 
+8. we worked on Domain, application **core layer**, need to work on presentation layer (Periphery layer)
+  ![image](https://user-images.githubusercontent.com/9728497/148668757-7aed2950-3931-4391-bb7e-0610e7c5a906.png)
+
   
   
   

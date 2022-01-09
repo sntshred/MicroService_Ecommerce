@@ -197,11 +197,18 @@
     }
   
   ```
-5. Behaviour/ValidationBehaviour: using "" we will intercept before and after the handle class, to handle the pipeline behaviours.
+ 5. Behaviour/ValidationBehaviour: using "" we will intercept before and after the handle class, to handle the pipeline behaviours.
   
     ![image](https://user-images.githubusercontent.com/9728497/148665991-d716e1d0-472b-4115-aa8b-da4e81adba10.png)
 
   The IValidator look for all --> AbstractValidators, and AbstractValidators implement IValidator interface under the hood, so any classes implement Abstractclass "Aka IValidtor", will get the class info here
+ 
+ 6. This validationBehviour is a good practise, where you dont need to peroform validation on every request for "CheckoutOrderCommandHandler" or "OrderingCommandHandler", it will act has a intercept and do the validations, and inthe handle methods of Checkout/Ordering, you could just foucs on actual operations.
+  ![image](https://user-images.githubusercontent.com/9728497/148666460-5223d7ea-f7cc-4616-8c77-1baddc0b2fe4.png)
+
+  ![image](https://user-images.githubusercontent.com/9728497/148666472-030ae620-c5b5-4479-8ebd-593c9d85c276.png)
+
+
   
   
   

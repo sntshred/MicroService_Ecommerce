@@ -185,7 +185,7 @@
 
     }
   
-  3. Exception handler to specify every layer has a different exception using "Exception/ExceptionHandler", we customize exception by different layers using below
+  3. Exception handler to specify every layer has a different exception using "Exceptions/ExceptionHandler", we customize exception by different layers using below
   
   
   

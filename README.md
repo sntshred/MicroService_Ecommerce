@@ -219,8 +219,9 @@
   
 ![image](https://user-images.githubusercontent.com/9728497/148711215-3f85be27-d945-4d66-9702-78058ba87e3e.png)
 1. Use **mass transit** to publish and recevie event 
-2. ![image](https://user-images.githubusercontent.com/9728497/148712040-ebfca849-ccab-470e-951e-447104dea278.png)
-3.
+2. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712040-ebfca849-ccab-470e-951e-447104dea278.png)
+3. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712131-0abf85aa-70f9-486e-b169-6a2a1f36658e.png)
+4. <br />
   
   
   

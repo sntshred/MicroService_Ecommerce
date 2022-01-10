@@ -221,7 +221,14 @@
 1. Use **mass transit** to publish and recevie event 
 2. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712040-ebfca849-ccab-470e-951e-447104dea278.png)
 3. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712131-0abf85aa-70f9-486e-b169-6a2a1f36658e.png)
-4. <br />
+4. <br /> **Exchange**: will diecide which queues to send the message. It makes the decision according to the routing case.
+5. **Bindings** : Is the link between Exchange and Queues.
+6. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712367-ba7d59dd-d5f5-4d37-8d00-f4557e664645.png)
+  - **Durable**: Determines the life time of the queue, if want the persistance, we have to set the value has a true. we use it in-memory.
+  - **Exclusive**: Determines will the queue will be used by the other connections.
+  
+  
+
   
   
   

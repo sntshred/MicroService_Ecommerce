@@ -240,7 +240,41 @@
   - Async communication with Basket and Ordering microservices with using RabbitMq
 10. Mass transit is an open-source lightweight message bus framework for .NET. MassTransit is useful for routing messages over MSMQ, RabbitMQ, TIBCO, and so on.
 11. <br /> ![image](https://user-images.githubusercontent.com/9728497/148715066-aeb3cb55-43fe-4895-b27c-814a898d3956.png)
-12. 
+12. Sending message queue config
+'''
+    // MassTransit-RabbitMQ Configuration
+            services.AddMassTransit(config => {
+                config.UsingRabbitMq((ctx, cfg) =>
+                {
+                    cfg.Host(Configuration["EventBusSettings:HostAddress"]);
+
+                });
+            });
+  '''
+  13. Consuming message queue config
+  
+  '''
+    // MassTransit-RabbitMQ Configuration
+            services.AddMassTransit(config => {
+
+                // first config
+                config.AddConsumer<BaketCheckoutConsumer>();
+
+                config.UsingRabbitMq((ctx, cfg) =>
+                {
+                    
+                    cfg.Host(Configuration["EventBusSettings:HostAddress"]);
+
+                    //second config
+                    cfg.ReceiveEndpoint(EventBusConstants.BasketCheckoutQueue, C =>
+                    {
+                        C.ConfigureConsumer<BaketCheckoutConsumer>(ctx);
+
+                    });
+
+                });
+  '''
+  
   
 
 

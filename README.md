@@ -218,7 +218,7 @@
   ## Microservice Async Communication with RabbitMQ & Masstransit
   
 ![image](https://user-images.githubusercontent.com/9728497/148711215-3f85be27-d945-4d66-9702-78058ba87e3e.png)
-1 
+1. Use **mass transit** to publish and recevie event 
   
   
   

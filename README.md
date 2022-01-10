@@ -226,6 +226,17 @@
 6. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712367-ba7d59dd-d5f5-4d37-8d00-f4557e664645.png)
   - **Durable**: Determines the life time of the queue, if want the persistance, we have to set the value has a true. we use it in-memory.
   - **Exclusive**: Determines will the queue will be used by the other connections.
+7. <br /> ![image](https://user-images.githubusercontent.com/9728497/148712585-6cf35b7f-cf78-4c3b-9da4-e3e6f7a24f0f.png)
+  - Exchange controls the routing of the message to the queue's
+  - Each **Exchange type** defines the specific routing algorithm
+  - In **Direct Exchanges**, uses of a single queue is being addressed, That means a **routing key ** is determined according to the things to be done and accordingly, the most appropriate queue is reached with the relevant direct exchange to the** consumer side**
+  - one queue directly sending to the one consumer.
+  - **Topic Exchange**: Messages are sent to different queues according to their subjects, a route is used to send message to **one or more queues**
+  - It is a variation of the Publish / Subscribe pattern, If the problem concerns several consumers, Topic Exchange should be used to determine what kind of
+    message they want to receive.
+  - **Fanout Exchange**: where the meesage should be sent to more than one queue, like **broadcasting systems**
+  
+
   
   
 

@@ -235,7 +235,8 @@
   - It is a variation of the Publish / Subscribe pattern, If the problem concerns several consumers, Topic Exchange should be used to determine what kind of
     message they want to receive.
   - **Fanout Exchange**: where the meesage should be sent to more than one queue, like **broadcasting systems**
-  
+8. <br /> ![image](https://user-images.githubusercontent.com/9728497/148713534-3051c11c-dc27-40bb-b969-515722011672.png)
+
 
   
   

@@ -236,6 +236,13 @@
     message they want to receive.
   - **Fanout Exchange**: where the meesage should be sent to more than one queue, like **broadcasting systems**
 8. <br /> ![image](https://user-images.githubusercontent.com/9728497/148713534-3051c11c-dc27-40bb-b969-515722011672.png)
+9. <br /> ![image](https://user-images.githubusercontent.com/9728497/148714706-c285a6bb-17ca-4adf-8922-e69ee0d47fe0.png)
+  - Async communication with Basket and Ordering microservices with using RabbitMq
+10. Mass transit is an open-source lightweight message bus framework for .NET. MassTransit is useful for routing messages over MSMQ, RabbitMQ, TIBCO, and so on.
+11. <br /> ![image](https://user-images.githubusercontent.com/9728497/148715066-aeb3cb55-43fe-4895-b27c-814a898d3956.png)
+12. 
+  
+
 
 
   

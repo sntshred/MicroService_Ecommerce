@@ -96,7 +96,7 @@
   After configuring the portainer, goto localhost:9000, and set the password
   uername: admin
   password: password
-  ![image](https://user-images.githubusercontent.com/9728497/147434887-7a8635b8-0357-4552-9090-67d66f71bc49.png)
+  
   
   ----
   ## Discount API
